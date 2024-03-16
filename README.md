@@ -34,9 +34,9 @@ of determination (R² score) for model evaluation.
 
     Follow theses steps to run the program:
 
-    $ git clone https://github.com/pmesah28/Basic-ML-Algorithms
-    $ cd Basic-ML-Algorithms
-    $ python3 Basic-ML-Algorithms/Test/linear_reg.py
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/tests
+    $ python3 linear_reg_test.py
 
 <p align="center">
     <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png" width="540"\>
