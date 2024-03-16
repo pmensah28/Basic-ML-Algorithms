@@ -39,11 +39,6 @@ of determination (R² score) for model evaluation.
     $ python3 Basic-ML-Algorithms/Test/linear_reg.py
 
 <p align="center">
-![Error Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png "Linear-reg Error Plot")
-    
-</p>
-
-<p align="center">
     <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png" width="540"\>
 </p>
 
