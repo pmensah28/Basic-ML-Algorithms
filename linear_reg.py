@@ -16,6 +16,7 @@ class LinearRegression:
         self.bias = None # set bias to none
 
     def fit(self, X, y):
+        self.losses = []  # create an empty list to store losses
         n_samples, n_features = X.shape # define the number of samples and feature
 
         # initialization of weight and bias
@@ -24,10 +25,9 @@ class LinearRegression:
 
         # implement the gradient descent algorithm
         for _ in range(self.n_iterations):
-            losses = [] # create an empty list to store losses
             predicted = np.dot(X, self.weights) + self.bias
             loss = (1 / n_samples) * np.sum((y - predicted)**2)
-            losses.append(loss) # add computed loss after every iteration to the list
+            self.losses.append(loss) # add computed loss after every iteration to the list
 
             # compute gradient w.r.t weight and bias
             grad_w = (-2 / n_samples) * np.dot(X.T, (y - predicted))
