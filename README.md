@@ -38,13 +38,13 @@ of determination (R² score) for model evaluation.
     $ cd Basic-ML-Algorithms
     $ python3 Basic-ML-Algorithms/Test/linear_reg.py
 
-![Error Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png "Linear-reg Error Plot")
 <p align="center">
+![Error Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png "Linear-reg Error Plot")
     Figure: Training progress of the linear regression model.
 </p>
 
-![Mpdel Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_pred.png "linear-reg Model Plot ")
 <p align="center">
+![Mpdel Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_pred.png "linear-reg Model Plot ")
     Figure: Training progress of the linear regression model.
     <br> MSE: 104.20226976850218
     <br> Accuracy: 0.9538933013434353
