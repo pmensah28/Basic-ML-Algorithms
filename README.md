@@ -58,4 +58,4 @@ of determination (R² score) for model evaluation.
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
-to reach me via [email](mailto:pmensah@aimsammi.org) me or let's connect on [LinkedIn](https://www.linkedin.com/in/prince-mensah/).
+to reach me via [email](mailto:pmensah@aimsammi.org) or let's connect on [LinkedIn](https://www.linkedin.com/in/prince-mensah/).
