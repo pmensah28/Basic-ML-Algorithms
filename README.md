@@ -10,6 +10,7 @@ algorithms from scratch in Python.
   * [Dependencies](#dependencies)
   * [Algorithms](#tests)
     + [Linear Regression](#linear-regression)
+    + [Logistic Regression](#logistic-regression)
   * [Contact](#Contact)
 
 ## Dependencies
@@ -55,6 +56,21 @@ of determination (R² score) for model evaluation.
     <br> MSE: 104.20226976850218
     <br> Accuracy: 0.9538933013434353
 </p>
+
+
+### Logistic Regression
+The Logistic regression algorithm was implemented with the sigmoid function, cross-entropy loss, and gradient descent for optimization.
+The sigmoid function converts real-valued numbers between 0 and 1 which makes it suitable for binary classification. 
+The cross-entropy loss measures the performance of the model whose output value is a probability values between 0 and 1. 
+Finally, the gradient descent algorithm was used to minimize the cross-entropy loss function by updating the weights and bias.
+
+
+    Follow theses steps to run the program:
+
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/tests
+    $ python3 logistic_reg_test.py
+
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
