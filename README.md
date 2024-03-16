@@ -43,7 +43,7 @@ of determination (R² score) for model evaluation.
     Figure: Training progress of the linear regression model.
 </p>
 
-![GitHub Logo](https://github.com/pmensah28/Basic-ML-Algorithms/images/linear_reg_error.png "GitHub Logo")
+![GitHub Logo](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png "GitHub Logo")
 
 
 
