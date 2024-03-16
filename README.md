@@ -44,6 +44,10 @@ of determination (R² score) for model evaluation.
 </p>
 
 <p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png" width="640"\>
+</p>
+
+<p align="center">
 ![Mpdel Plot](https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_pred.png "linear-reg Model Plot ")
     Figure: Training progress of the linear regression model.
     <br> MSE: 104.20226976850218
