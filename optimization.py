@@ -5,7 +5,6 @@ Created on Wed Mar 17 21:15:26 2024
 
 @author: princemensah
 """
-
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -61,11 +60,6 @@ class LinearRegression:
         plt.ylabel('MSE Loss')
         plt.show()
 
-
-import numpy as np
-import matplotlib.pyplot as plt
-from sklearn.datasets import make_classification
-from sklearn.metrics import accuracy_score
 
 class LogisticRegression:
     def __init__(self, learning_rate=0.01, iterations=1000, method='GD', batch_size=None, momentum=None):
