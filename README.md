@@ -11,6 +11,7 @@ algorithms from scratch in Python.
   * [Algorithms](#tests)
     + [Linear Regression](#linear-regression)
     + [Logistic Regression](#logistic-regression)
+    + [Optimization](#optimization)
   * [Contact](#Contact)
 
 ## Dependencies
@@ -71,6 +72,18 @@ Finally, the gradient descent algorithm was used to minimize the cross-entropy l
     $ cd Basic-ML-Algorithms/tests
     $ python3 logistic_reg_test.py
 
+### Optimization
+This method was implemented for both linear regression and logistic regression with different optimization techniques
+including; the mini-batch gradient descent (MBGD), stochastic gradient descent (SGD) both with and without momentum.
+
+Before testing this algorithm, be sure to select your preferred optimization technique with or without moment in
+momentum in the code implementations.
+
+    Follow theses steps to run the program:
+
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/tests
+    $ python3 optimization_test.py
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
