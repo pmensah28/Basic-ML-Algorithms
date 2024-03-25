@@ -96,7 +96,26 @@ descent algorithm to update the parameters of the network.
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
     $ cd Basic-ML-Algorithms/tests
     $ python3 simple_nn_test.py
-
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/d_boundary1.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing the initial decision boundary of the model
+</p>
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/d_boundary2.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing the final decision boundary of the model
+</p>
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/nn_loss_plot.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Training progress of the linear regression model.
+    <br> Train accuracy: 1
+    <br> Test accuracy: 1
+</p>
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
