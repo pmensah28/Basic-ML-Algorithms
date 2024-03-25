@@ -13,6 +13,7 @@ algorithms from scratch in Python.
     + [Logistic Regression](#logistic-regression)
     + [Optimization](#optimization)
     + [Simple Neural Network](#simple-neural-network)
+    + [Principal Component Analysis](#principal-component-analysis)
   * [Contact](#Contact)
 
 ## Dependencies
@@ -113,8 +114,38 @@ descent algorithm to update the parameters of the network.
 </p>
 <p align="center">
     Figure: Training and testing progress of the simple nn model.
-    <br> Train accuracy: 1
-    <br> Test accuracy: 1
+    <br> Train accuracy: 1.0
+    <br> Test accuracy: 1.0
+</p>
+
+### Principal Component Analysis
+PCA is statistical technique that helps us to transform a dataset of higher 
+dimensions into lower dimensions. This method utilizes orthogonal transformation to convert a set of observations
+of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components.
+I fitted the PCA algorithm on the irish dataset to find the principal components. This transformation reduced the 
+dimension of the data from 4 to a dimensionality of 2.
+
+    Follow theses steps to run the program:
+
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/tests
+    $ python3 pca_test.py
+
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/pca1.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing the number of components.
+</p>
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/nn_loss_plot.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing PCA reduced to two dimensions.
+    <br> Transformed data shape: (150, 2)
+    <br> Number of components: 2
+    <br> Explained variance: [72.96 22.85  3.67  0.52]
+    <br> Cumulative explained variance: [ 72.96  95.81  99.48 100.]
 </p>
 
 ## Contact
