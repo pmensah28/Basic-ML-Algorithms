@@ -1,8 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Mar 25 19:54:34 2024
+
+@author: princemensah
+"""
+
 import numpy as np
 import matplotlib.pyplot as plt
-from simple_nn import SimpleNeuralNetwork
 
-# Generate data to train and test the model.
+from simple_nn import SimpleNeuralNetwork
+np.random.seed(10)
+
+# Generate data
 var = 0.2
 n = 800
 class_0_a = var * np.random.randn(n//4, 2)
@@ -30,38 +40,32 @@ X_test = X[:, int(n * ratio):]
 Y_test = Y[:, int(n * ratio):]
 
 # Initialize and train the neural network
-input_layer_size = 2
-hidden_layer_size = 10  # Example choice
-output_layer_size = 1  # Binary classification
+h0 = 2 #Input layer
+h1 = 10 # hidden layer
+h2 = 1 #output layer
 learning_rate = 0.1
-n_epochs = 1000  # Number of epochs for training
-
-nn_model = SimpleNeuralNetwork(input_layer_size, hidden_layer_size, output_layer_size, learning_rate)
-# nn_model.fit(X_train, Y_train, X_test, Y_test, n_epochs)
-# train_predictions = nn_model.predict(X_train)
-# test_predictions = nn_model.predict(X_test)
-#
-# # check for train accuracy and test accuracy
-# train_accuracy = nn_model.accuracy(train_predictions, Y_train)
-# test_accuracy = nn_model.accuracy(test_predictions, Y_test)
-# print("Train accuracy: ", train_accuracy)
-# print("Test accuracy: ", test_accuracy)
+n_epochs = 1000
 
 
-#     plt.plot(train_loss, label='Train Loss')
-#     plt.plot(test_loss, label='Test Loss')
-#     plt.legend()
-#     plt.title('Training and Test Loss Over Epochs')
-#     plt.xlabel('Epoch')
-#     plt.ylabel('Loss')
-#     plt.show()
-#
-#     y_pred_train = self.predict(X_train)
-#     train_accuracy = self.accuracy(y_pred_train, Y_train)
-#     print("Train accuracy:", train_accuracy)
-#
-#     y_pred_test = self.predict(X_test)
-#     test_accuracy = self.accuracy(y_pred_test, Y_test)
-#     print("Test accuracy:", test_accuracy)
-#
-# nn.train(X_train, Y_train, X_test, Y_test, n_epochs)
+
+nn_model = SimpleNeuralNetwork(h0, h1, h2, learning_rate=0.1) # model
+nn_model.fit(X_train, Y_train, X_test, Y_test, n_epochs=10000)
+train_preds = nn_model.predict(X_train)
+test_preds = nn_model.predict(X_test)
+train_accuracy = nn_model.accuracy(Y_train, train_preds)
+test_accuracy = nn_model.accuracy(Y_test, test_preds)
+
+# checking for training and test accuracy
+print(f"Train accuracy: {train_accuracy}")
+print(f"Test accuracy: {test_accuracy}")
+
+# plotting the training loss and testing loss
+plt.plot(nn_model.train_loss, label='Train Loss')
+plt.plot(nn_model.test_loss, label='Test Loss')
+plt.legend()
+plt.title('Training and Test Loss Over Epochs')
+plt.xlabel('Epoch')
+plt.ylabel('Loss')
+plt.show()
+
+
