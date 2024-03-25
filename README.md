@@ -138,7 +138,7 @@ dimension of the data from 4 to a dimensionality of 2.
     Figure: Plot showing the number of components.
 </p>
 <p align="center">
-    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/nn_loss_plot.png" width="540"\>
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/pca2.png" width="540"\>
 </p>
 <p align="center">
     Figure: Plot showing PCA reduced to two dimensions.
