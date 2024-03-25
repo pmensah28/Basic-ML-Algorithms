@@ -12,6 +12,7 @@ algorithms from scratch in Python.
     + [Linear Regression](#linear-regression)
     + [Logistic Regression](#logistic-regression)
     + [Optimization](#optimization)
+    + [Simple Neural Network](#simpel neural network)
   * [Contact](#Contact)
 
 ## Dependencies
@@ -41,21 +42,34 @@ of determination (R² score) for model evaluation.
     $ python3 linear_reg_test.py
 
 <p align="center">
+
     <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_error.png" width="540"\>
+
 </p>
 
+
 <p align="center">
+
     Figure: Training progress of the linear regression model.
+
 </p>
 
+
 <p align="center">
+
     <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/linear_reg_pred.png" width="540"\>
+
 </p>
 
+
 <p align="center">
+
     Figure: Training progress of the linear regression model.
+
     <br> MSE: 104.20226976850218
+
     <br> Accuracy: 0.9538933013434353
+
 </p>
 
 
@@ -84,6 +98,19 @@ momentum in the code implementations.
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
     $ cd Basic-ML-Algorithms/tests
     $ python3 optimization_test.py
+
+### Simple Neural Network
+The simple neural network is built from scratch with 1 input layer (2 neurons), 1 hidden layer (10 neurons), and 1 output layer (1 neuron).
+Since it is a simple network, the sigmoid function was used in both the hidden layer and output layer. I computed the forward pass and applied the
+cross-entropy loss function to compute the errors of the model since we are dealing with a classification  problem. To get the best parameter that
+optimizes the performance of the model, I applied the back propagation technique (chain rule) in the learning process. Finally, I applied the gradient 
+descent algorithm to update the parameters of the network.
+
+    Follow theses steps to run the program:
+
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/tests
+    $ python3 simple_nn_test.py
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
