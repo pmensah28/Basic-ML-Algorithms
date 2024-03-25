@@ -7,10 +7,9 @@ Created on Wed Mar 17 21:21:26 2024
 
 """
 
-from optimization import LinearRegression
-from optimization import LogisticRegression
+from models.optimization import LinearRegression
+from models.optimization import LogisticRegression
 from sklearn.datasets import make_classification
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 import numpy as np
 np.random.seed(10)

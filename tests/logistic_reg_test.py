@@ -6,7 +6,7 @@ Created on Wed Mar 17 21:15:26 2024
 @author: princemensah
 """
 
-from logistic_reg import LogisticRegression
+from models.logistic_reg import LogisticRegression
 from sklearn.model_selection import train_test_split
 from sklearn.datasets import make_classification
 import numpy as np

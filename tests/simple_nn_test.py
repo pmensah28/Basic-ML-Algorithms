@@ -9,7 +9,7 @@ Created on Mon Mar 25 19:54:34 2024
 import numpy as np
 import matplotlib.pyplot as plt
 
-from simple_nn import SimpleNeuralNetwork
+from models.simple_nn import SimpleNeuralNetwork
 np.random.seed(10)
 
 # Generate data

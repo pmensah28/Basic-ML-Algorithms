@@ -1,4 +1,4 @@
-from linear_reg import LinearRegression # import the local module
+from models.linear_reg import LinearRegression # import the local module
 import matplotlib.pyplot as plt # library to plot
 from sklearn.model_selection import train_test_split
 from sklearn import datasets
