@@ -39,7 +39,7 @@ of determination (R² score) for model evaluation.
     Follow theses steps to run the program:
 
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
-    $ cd Basic-ML-Algorithms/tests
+    $ cd Basic-ML-Algorithms
     $ python3 linear_reg_test.py
 
 <p align="center">
@@ -69,7 +69,7 @@ Finally, the gradient descent algorithm was used to minimize the cross-entropy l
     Follow theses steps to run the program:
 
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
-    $ cd Basic-ML-Algorithms/tests
+    $ cd Basic-ML-Algorithms
     $ python3 logistic_reg_test.py
 
 ### Optimization
@@ -82,7 +82,7 @@ momentum in the code implementations.
     Follow theses steps to run the program:
 
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
-    $ cd Basic-ML-Algorithms/tests
+    $ cd Basic-ML-Algorithms
     $ python3 optimization_test.py
 
 ### Simple Neural Network
@@ -95,7 +95,7 @@ descent algorithm to update the parameters of the network.
     Follow theses steps to run the program:
 
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
-    $ cd Basic-ML-Algorithms/tests
+    $ cd Basic-ML-Algorithms
     $ python3 simple_nn_test.py
 <p align="center">
     <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/d_boundary1.png" width="540"\>
@@ -128,7 +128,7 @@ dimension of the data from 4 to a dimensionality of 2.
     Follow theses steps to run the program:
 
     $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
-    $ cd Basic-ML-Algorithms/tests
+    $ cd Basic-ML-Algorithms
     $ python3 pca_test.py
 
 <p align="center">
