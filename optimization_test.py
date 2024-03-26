@@ -7,8 +7,8 @@ Created on Wed Mar 17 21:21:26 2024
 
 """
 
-from models.optimization import LinearRegression
-from models.optimization import LogisticRegression
+from optimization import LinearRegression
+from optimization import LogisticRegression
 from sklearn.datasets import make_classification
 from sklearn.metrics import accuracy_score
 import numpy as np
