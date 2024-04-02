@@ -14,6 +14,7 @@ algorithms from scratch in Python.
     + [Optimization](#optimization)
     + [Simple Neural Network](#simple-neural-network)
     + [Principal Component Analysis](#principal-component-analysis)
+    + [K-Nearest Neigbour](k-nearest-neighbour)
   * [Contact](#Contact)
 
 ## Dependencies
@@ -147,6 +148,37 @@ dimension of the data from 4 to a dimensionality of 2.
     <br> Explained variance: [72.96 22.85  3.67  0.52]
     <br> Cumulative explained variance: [ 72.96  95.81  99.48 100.]
 </p>
+
+### K-Nearest Neighbour
+The k-nearest neighbour algorithm use proximity to make classification about grouping of data points. 
+In this work, I built the algorithm from scratch and trained it on the moons dataset.
+
+    Follow theses steps to run the program:
+
+    $ git clone https://github.com/pmensah28/Basic-ML-Algorithms.git
+    $ cd Basic-ML-Algorithms/KNN
+    $ python3 knn_test.py
+
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/knn_plot.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing test accuracy vs k value.
+</p>
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/db_knn1.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing the initial decision boundary for k = 1.
+</p>
+<p align="center">
+    <img src="https://github.com/pmensah28/Basic-ML-Algorithms/blob/main/images/db_knn.png" width="540"\>
+</p>
+<p align="center">
+    Figure: Plot showing the final decision boundary for k = 99
+</p>
+
+
 
 ## Contact
 If you have any comments, suggestions or anything you'd like to be clarify on, feel free
