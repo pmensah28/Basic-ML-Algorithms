@@ -14,7 +14,7 @@ algorithms from scratch in Python.
     + [Optimization](#optimization)
     + [Simple Neural Network](#simple-neural-network)
     + [Principal Component Analysis](#principal-component-analysis)
-    + [K-Nearest Neigbour](k-nearest-neighbour)
+    + [K-Nearest Neigbour](#k-nearest-neighbour)
   * [Contact](#Contact)
 
 ## Dependencies
