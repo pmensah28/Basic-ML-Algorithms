@@ -1,4 +1,4 @@
-from pca import PCA
+from Principal_Component_Analysis.pca import PCA
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
 
